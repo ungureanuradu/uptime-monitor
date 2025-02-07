@@ -1,0 +1,23 @@
+{
+    "name": "rudev/uptime-monitor",
+    "description": "Laravel package for uptime monitoring and vendor subscription adjustments",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "nesbot/carbon": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rudev\\UptimeMonitor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Radu Ungureanu"
+        }
+    ],
+    "minimum-stability": "stable"
+}
