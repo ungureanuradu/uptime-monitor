@@ -1,5 +1,5 @@
 {
-    "name": "rudev/uptime-monitor",
+    "name": "uradu/uptime-monitor",
     "description": "Laravel package for uptime monitoring and vendor subscription adjustments",
     "type": "library",
     "version": "1.0.0",

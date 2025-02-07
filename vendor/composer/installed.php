@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'rudev/uptime-monitor',
+        'name' => 'uradu/uptime-monitor',
         'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => null,
@@ -196,15 +196,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'rudev/uptime-monitor' => array(
-            'pretty_version' => '1.0.0',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'symfony/deprecation-contracts' => array(
             'pretty_version' => 'v3.5.1',
             'version' => '3.5.1.0',
@@ -255,6 +246,15 @@
             'provided' => array(
                 0 => '2.3|3.0',
             ),
+        ),
+        'uradu/uptime-monitor' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'voku/portable-ascii' => array(
             'pretty_version' => '2.0.3',
